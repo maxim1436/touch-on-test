@@ -14,6 +14,8 @@ App.vue: Основной компонент приложения.
 mock: непосредственно сами моковые данные
 types: типизация
 
+Как сказано в задании, использовал TypesScript, Vue 3 + composition api
+
 ## Project setup
 ```
 npm install
