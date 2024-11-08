@@ -6,7 +6,7 @@
       <search-query v-model="searchQuery" />
       <contact-list :contactList="filteredContacts" @update-contact="updateContact" @delete-contact="deleteContact" />
     </div>
-    <div v-if="isUpdateWindowOpen" class="a1">
+    <div v-if="isUpdateWindowOpen" class="modal-window-update">
       <update-contact-form :oldContact="updatingContact" @close="isUpdateWindowOpen = false"
         @update-contact="confirmChanges" />
     </div>
@@ -78,7 +78,7 @@ body {
   padding: 0;
 }
 
-.a1 {
+.modal-window-update {
   display: flex;
   justify-content: center;
   align-items: center;

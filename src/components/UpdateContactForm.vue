@@ -1,5 +1,5 @@
 <template>
-	<div class="update-contact">
+	<div class="update-contact-form">
 		<form @submit.prevent="updateContact">
 			<input type="text" v-model="newContact.name" :placeholder="oldContact.name" required />
 			<input type="email" v-model="newContact.email" :placeholder="oldContact.email" required />
@@ -48,7 +48,7 @@ const closeModal = () => {
 </script>
 
 <style lang="css" scoped>
-.update-contact {
+.update-contact-form {
 	background: rgb(173, 162, 162);
 	border-radius: 5px;
 	padding: 1%;
