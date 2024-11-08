@@ -16,6 +16,8 @@ types: типизация
 
 Как сказано в задании, использовал TypesScript, Vue 3 + composition api
 
+Инструкиця по запуску приложения
+
 ## Project setup
 ```
 npm install
